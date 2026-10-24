@@ -1,0 +1,39 @@
+TUTUY MP3 - VERSION PORTABLE PARA WINDOWS 10/11 x64
+
+1. Extrae el ZIP completo en una carpeta con permiso de escritura.
+2. Abre "Tutuy MP3.exe". No requiere instalar Python, Node o FFmpeg.
+3. Busca por artista/cancion o genero. Tambien puedes pegar un enlace publico.
+4. Marca las canciones y pulsa "Descargar seleccion".
+5. Los MP3 quedan en data\Musica, junto al ejecutable.
+
+CELULAR / TABLET / OTRO NAVEGADOR
+En el computador abre "Conectar dispositivo". Conecta el celular a la misma
+Wi-Fi y escanea el QR. Manten el computador encendido y la app abierta.
+Si Windows solicita acceso de red, permite solo tu red privada.
+En "Mi biblioteca", pulsa descargar para guardar el MP3 en el celular.
+
+CONEXION
+El indicador superior comprueba Internet en el computador que descarga.
+Al buscar y descargar se verifica de nuevo. Si el celular pierde contacto
+con el computador, aparece "Sin conexion con la app".
+
+PARA CERRAR
+Preferencias (el circulo T) > "Cerrar Tutuy en este computador".
+Cerrar solo la ventana deja el servicio local en segundo plano para el movil.
+
+PORTABILIDAD
+Mueve la carpeta COMPLETA, incluido _internal. La carpeta data conserva
+tus MP3, el historial y la clave de conexion. No ejecutes dentro del ZIP.
+El ejecutable es para Windows x64; Android y iPhone usan el navegador.
+El acceso movil es en la red local, no un servicio publico en Internet.
+
+COMPATIBILIDAD
+Busquedas por texto: YouTube y SoundCloud. Otras fuentes: enlaces admitidos
+por yt-dlp. No todas las plataformas permiten descargar ni todos los enlaces
+son compatibles. No se accede a DRM, contenido privado o de pago.
+Descarga contenido propio o con permiso de su titular.
+El genero funciona como termino de busqueda, no como etiqueta verificada.
+
+PROBLEMAS
+Consulta README.md y data\tutuy.log. Si una plataforma cambia, hace falta
+actualizar el motor y generar nuevamente el portable desde el codigo fuente.

@@ -1,0 +1,12 @@
+{
+  "name": "tutuy-mp3-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interfaz web de Tutuy MP3 para Vercel. El motor de descargas requiere un servidor persistente.",
+  "scripts": {
+    "build": "node scripts/build-web.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
